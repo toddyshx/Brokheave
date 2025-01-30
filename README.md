@@ -16,30 +16,30 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild(
 local OrionLib = loadstring(game:HttpGet(
                                 "https://you.whimper.xyz/sources/slowed/0"))();
 local Window = OrionLib:MakeWindow({
-    Name = "Slowed Hub",
+    Name = "Blox Hunter",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "XScriptHub",
-    IntroText = "Slowed Studios"
+    IntroText = "ToddyExe"
 });
 local CRD = Window:MakeTab({
     Name = "informações",
-    Icon = "rbxassetid://15764521947",
+    Icon = "rbxassetid://120992516795714",
     PremiumOnly = false
 });
 local HH = Window:MakeTab({
     Name = "Início",
-    Icon = "rbxassetid://15764493661",
+    Icon = "rbxassetid://125755126561120",
     PremiumOnly = false
 });
 local JJ = Window:MakeTab({
     Name = "Jogador",
-    Icon = "rbxassetid://18304402950",
+    Icon = "rbxassetid://137953573278488",
     PremiumOnly = false
 });
 local HouseTab = Window:MakeTab({
     Name = "Casas",
-    Icon = "rbxassetid://109334249980199",
+    Icon = "rbxassetid://136547965419312",
     PremiumOnly = false
 });
 local TT = Window:MakeTab({
@@ -48,14 +48,14 @@ local TT = Window:MakeTab({
     PremiumOnly = false
 });
 local utilitiesTab = Window:MakeTab({
-    Name = "Configurações",
-    Icon = "rbxassetid://140270687691975",
+    Name = "Config",
+    Icon = "rbxassetid://120992516795714",
     PremiumOnly = false
 });
 local Section = CRD:AddSection({Name = "🎄 Creator 🎄"});
-CRD:AddLabel("Dev - Scritp: CodeCraft / MatheuszinZK");
+CRD:AddLabel("Dev - Scritp: CodeCraft / Toddyshx");
 local function copyText()
-    local textToCopy = "https://discord.gg/25ms";
+    local textToCopy = "https://discord.gg/afdwJkJpfP";
     setclipboard(textToCopy);
     OrionLib:MakeNotification({
         Name = "Texto Copiado",
